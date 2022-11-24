@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  font-family: 'Poppins', sans-serif;
+  overflow-y: hidden;
+}
+.text {
+  margin-top: 70px;
+}
+h1 {
+  margin-top: -0.5px;
+  color: hsl(234, 12%, 34%);
+  font-weight: 900;
+}
+span {
+  font-size: 1.9em;
+  color: hsl(229, 6%, 66%);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  margin-top: -5px;
+  color: hsl(229, 6%, 66%);
+}
+img {
+  width: 45px;
+  margin-left: 190px;
+}
+p {
+  font-size: 85%;
+  color:hsl(229, 6%, 66%);
+}
+.box-cyan {
+  border: none;
+  border-top: hsl(180, 62%, 55%) 3.5px solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 160px;
+  margin-right: 555px;
+  margin-top: -90px;
+  text-align: left;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0px 10px 12px hsl(231, 50%, 92%);
+}
+.box-red {
+  border: none;
+  border-top: hsl(0, 78%, 62%) 3.5px solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 160px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  text-align: left;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0px 10px 12px hsl(231, 50%, 92%);
+}
+.box-orange {
+  border: none;
+  border-top: hsl(34, 97%, 64%) 3.5px solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 160px;
+  text-align: left;
+  margin-top: -50px;
+  margin-bottom: 80px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0px 10px 12px hsl(231, 50%, 92%);
+}
+.box-blue {
+  border: none;
+  border-top: hsl(212, 86%, 64%) 3.5px solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 160px;
+  margin-top: -376px;
+  margin-right: -555px;
+  margin-bottom: 150px;
+  text-align: left;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0px 10px 12px hsl(231, 50%, 92%);
+}
+.attribution{
+  margin-top: -5px;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    width: 330px;
+    overflow-y: scroll;
+  }
+  .box {
+    font-size: smaller;
+  }
+
+  .box-cyan {
+    margin-right: 0px;
+    margin-top: -390px;
+  }
+  .box-red {
+    margin-top: 300px;
+  }
+  .box-orange {
+    margin-top: 260px;
+    margin-bottom: 20px;
+  }
+  .box-blue {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+}
